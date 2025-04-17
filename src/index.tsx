@@ -5,7 +5,7 @@ export function multiply(a: number, b: number): number {
   return PranobLib.multiply(a, b);
 }
 
-export function testComponent() {
+export function TestComponent() {
   return (
     <View>
       <Text>Test Component</Text>
