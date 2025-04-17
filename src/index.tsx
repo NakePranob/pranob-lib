@@ -1,14 +1,8 @@
 import PranobLib from './NativePranobLib';
-import { View, Text } from 'react-native';
+import { TestComponent } from './components/TestComponent';
 
 export function multiply(a: number, b: number): number {
   return PranobLib.multiply(a, b);
 }
 
-export function TestComponent() {
-  return (
-    <View>
-      <Text>Test Component</Text>
-    </View>
-  );
-}
+export { TestComponent };

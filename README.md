@@ -10,7 +10,6 @@ npm install react-native-pranob-lib
 
 ## Usage
 
-
 ```js
 import { multiply } from 'react-native-pranob-lib';
 
@@ -18,7 +17,6 @@ import { multiply } from 'react-native-pranob-lib';
 
 const result = multiply(3, 7);
 ```
-
 
 ## Contributing
 
